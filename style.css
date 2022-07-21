@@ -79,7 +79,9 @@ header {
 
 /* banner end */
 /* parfect start */
-.parfect {}
+.parfect {
+    padding: 100px 0;
+}
 
 .content2 {
     margin: 0 auto;
@@ -90,6 +92,7 @@ header {
 .p-content {}
 
 .c-light {
+    margin: 0;
     color: #b4ad9e;
     font-size: 14px;
     font-weight: 300;
@@ -99,13 +102,32 @@ header {
 }
 
 .c-title {
+    margin: 20px 0 30px;
     font-size: 30px;
     font-weight: 400;
     line-height: 25px;
 }
 
 .c-text {
-    font-size: 14px;
+    font-size: 16px;
+}
+.mb_40{
+    margin-bottom: 40px;
 }
 
 /* parfect end */
+/* blog start */
+.blog{
+
+}
+.b-wrapper{
+    width: 45%;
+    border: 2px solid green;
+}
+.s-img{
+    margin: 25px;
+}
+.s-img img{
+    width: 100%;
+}
+/* blog end */
