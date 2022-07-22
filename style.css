@@ -25,7 +25,7 @@ header {
     width: 11%;
     /* border: 2px solid green; */
     float: left;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 .logo img {
@@ -86,7 +86,7 @@ header {
 .content2 {
     margin: 0 auto;
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .p-content {}
@@ -102,7 +102,7 @@ header {
 }
 
 .c-title {
-    margin: 20px 0 30px;
+    margin: 20px 0 25px;
     font-size: 30px;
     font-weight: 400;
     line-height: 25px;
@@ -118,14 +118,23 @@ header {
 /* parfect end */
 /* blog start */
 .blog{
-
+    padding-bottom: 45px;
 }
 .b-wrapper{
-    width: 45%;
-    border: 2px solid green;
+    overflow: hidden;
+   
+}
+.single-b{
+    margin-bottom: 55px;
+    width: 47%;
+    /* border: 2px solid green; */
+    float: left;
+}
+.single-b:nth-child(even){ 
+    margin-left: 6%;
 }
 .s-img{
-    margin: 25px;
+    margin-bottom: 25px;
 }
 .s-img img{
     width: 100%;
